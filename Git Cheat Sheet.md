@@ -1,7 +1,7 @@
 ---
 title: Git Cheat Sheet
 created: '2020-04-10T05:59:27.884Z'
-modified: '2020-04-10T08:10:46.018Z'
+modified: '2020-04-10T08:28:29.717Z'
 ---
 
 # Git Cheat Sheet
@@ -25,6 +25,9 @@ setup shortcut
 - git fetch
 - git pull
 - git push
+
+overwrite the last commit 
+git commit --amend
 
 ## Git Add
 stages new files and modifications, without `deletions` in the current directory
@@ -50,17 +53,17 @@ check which files are staged, unstaged, and untracked.
 check commit history
 - git log 
 
-## Create new branch and switch to that branch
+## Git Checkout
+Create new branch and switch to that branch
 git checkout -b branch
 
-# 
-### overwrite the last commit 
-git commit --amend
 
 ## Remote
 Create a new connection to a remote repo. After adding a remote, you can use name as a shortcut for url in other commands.
 - git remote add name url
 
+check remote fetch and push
+- git remote -v
 
 ## Stash
 Stash the changes in a dirty working directory away
@@ -82,6 +85,7 @@ git cm 'message'
 git acm
 - alias.acm=!git add . && git commit -m
 
+git ca
 - alias.ca=commit --amend
 
 git d

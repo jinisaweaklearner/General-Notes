@@ -1,8 +1,8 @@
 # Hands-on Data Science code and notes
 
 ### Tools
-* [Git Notes](notes/GitCheatSheet.md) 
-* [Pycharm Notes](notes/Pycharm.md) 
+* [Git Notes](Notes/GitCheatSheet.md) 
+* [Pycharm Notes](Notes/Pycharm.md) 
 * [Anaconda](PublicCheatSheet/conda-cheatsheet.pdf) 
 
 

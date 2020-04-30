@@ -17,5 +17,8 @@ Ctrl-Shift-F / Command-Shift-F
  
 ### Find and Replace 
 Ctrl-R
+
+### Insert Template
+Command-D
  
 

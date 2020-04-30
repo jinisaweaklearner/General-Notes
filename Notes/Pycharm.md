@@ -6,8 +6,11 @@ modified: '2020-04-10T06:02:30.756Z'
 
 # Pycharm
 
-### Find a function from plugin 
+### Find Actions
 Ctrl-Shift-A / Command-Shift-A 
+
+### Find Code 
+Ctrl-Shift-N / Command-Shift-N
 
 ### Global search 
 Ctrl-Shift-F / Command-Shift-F

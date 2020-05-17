@@ -94,6 +94,15 @@ git d
 git lg 
 - alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 
+## Change Branch Name
+
+git branch -m new-name
+
+git push origin :old-name new-name
+
+git push origin -u new-name
+
+
 ## Unuseful Alias 
 git l
 - alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'

@@ -117,6 +117,21 @@ git llg
 - alias.master=checkout master
 - alias.ac=!git add . && git commit
 
+## Create .gitignore
+https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 
+## Git Step by Step
+- All steps
+https://stackoverflow.com/questions/46877667/how-to-push-a-new-initial-project-to-github-using-vs-code
 
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git remote add origin https://github.com/jinisaweaklearner/betfair_nba_datathon_2020.git
+- git push -u origin master
+How to update a private repo (SSH problem)
+
+# Git Rebase
+- https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward
+- git pull --rebase

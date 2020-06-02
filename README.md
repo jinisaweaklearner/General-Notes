@@ -13,5 +13,6 @@
 - [Python general cheat sheet](PrivateCheatSheet/python_cheatsheet.pdf) 
 - [SQL general cheat sheet](PrivateCheatSheet/SQL_cheatsheet.pdf) 
 - [Pandas code](PrivateCheatSheet/pandas_cheat_sheet.py) 
-
+- Use Python for EXCLE
+- Use Python for SQL Server
 

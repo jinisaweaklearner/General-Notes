@@ -135,3 +135,18 @@ How to update a private repo (SSH problem)
 # Git Rebase
 - https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward
 - git pull --rebase
+
+
+## Git Stash
+- git stash
+- git stash list --all
+- git stash clear
+
+## There is no tracking information for the current branch
+- git pull origin master
+
+## Clone Repo
+- sudo apt-get install git
+- sudo git init
+- sudo git remote add origin https://USER@bitbucket.org/powerwrapltd/pwl-ods.git
+- sudo git pull into ~/ods

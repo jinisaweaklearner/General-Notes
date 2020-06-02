@@ -5,4 +5,5 @@ history | grep 'xxx'
 - ?: one character
 - d[eo]ll match `e` or `o` 
 - d[e-o]ll match `e` to `o`
+- d[!e]ll exclude `e`
 - 

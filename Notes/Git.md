@@ -150,3 +150,6 @@ How to update a private repo (SSH problem)
 - sudo git init
 - sudo git remote add origin https://USER@bitbucket.org/powerwrapltd/pwl-ods.git
 - sudo git pull into ~/ods
+
+## set up upstream of master 
+- git branch --set-upstream-to=origin/master master

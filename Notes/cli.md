@@ -14,3 +14,8 @@ history -d 20
 rm -r dictory
 
 ### copy
+
+
+
+### check ip of dns
+dig dns

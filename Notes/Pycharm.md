@@ -14,7 +14,8 @@ Ctrl-Shift-N / Command-Shift-N
 
 ### Global search 
 Ctrl-Shift-F / Command-Shift-F
- 
+we can also select find in path 
+
 ### Find and Replace 
 Ctrl-R
 

@@ -1,19 +1,19 @@
-### Null
+## Null
 when use `like`, we won't get the record of Null values.
 
-### Like | case insensitive
+## Like | case insensitive
 ```
 select *
 from client.service
 where upper(service_name) like '%TEST%';
 ```
 
-### create table if not exsits
+## create table if not exsits
 ```
 create table if not exists table_name (...)
 ```
 
-### Grant access
+## Grant access
 ```
 alter table xx.xxxx owner to your_user_name;
 grant select on xx.xxxx to prod_ro;
@@ -40,19 +40,19 @@ portfolio_id varchar(20) not null
     constraint portfolio_pkey primary key,
 ```
 
-### Year Month
+## Year Month
 ```
 select EXTRACT(YEAR FROM transaction_date) AS YEAR,
        EXTRACT(MONTH FROM transaction_date) AS MONTH
 from table       
 ```
 
-### CAST
+## CAST
 ```
 CAST(sum(DailyCount) AS FLOAT) / CAST(count(*) AS FLOAT) as avg_count
 ```
 
-### TO_CHAT
+## TO_CHAT
 https://www.postgresql.org/docs/9.6/functions-formatting.html
 ```
 select TO_CHAR(created_date, 'month') AS "month"
@@ -62,7 +62,7 @@ output:
 september
 ```
 
-### IF ELSE
+## IF ELSE
 ```
 IF EXISTS ( select * from praemium.fum_stats_summary where as_at_date = '{date_this_week}')
 BEGIN
@@ -81,4 +81,43 @@ CASE
 WHEN AssetClassCode IN ('LOAN', 'CAS') THEN 'UNL'
 WHEN s.Exchange_Code IS NULL THEN AssetClassCode
 ELSE s.Exchange_Code END AS Exchange_Code,
+```
+
+## check column names
+```
+Select * From db_name.INFORMATION_SCHEMA.COLUMNS
+where column_name like '%username%'
+```
+
+## check table names
+```
+select * from db_name.information_schema.TABLES
+where lower(table_name) like '%keyword%'
+```
+## check number of rows in all tables
+```
+SELECT t.name, s.row_count from sys.tables t
+JOIN sys.dm_db_partition_stats s
+ON t.object_id = s.object_id
+AND t.type_desc = 'USER_TABLE'
+-- AND t.name not like '%dss%'
+AND s.index_id IN (0,1)
+order by row_count desc
+```
+
+## delete data but not table
+```
+TRUNCATE TABLE table_name;
+```
+
+## catch
+A TRY...CATCH construct catches all execution errors that have a severity higher than 10 that do not close the database connection.
+```
+BEGIN TRY  
+     { sql_statement | statement_block }  
+END TRY  
+BEGIN CATCH  
+     [ { sql_statement | statement_block } ]  
+END CATCH  
+[ ; ]  
 ```

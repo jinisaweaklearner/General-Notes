@@ -19,3 +19,8 @@ rm -r dictory
 
 ### check ip of dns
 dig dns
+
+## get env variables
+```
+env
+```

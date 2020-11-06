@@ -153,3 +153,8 @@ How to update a private repo (SSH problem)
 
 ## set up upstream of master 
 - git branch --set-upstream-to=origin/master master
+
+## Skip CICD
+```
+add [skip ci] in comments
+```

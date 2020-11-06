@@ -1,19 +1,19 @@
 # Pycharm shortcut
 
-## find aciont
+## find action
 Ctrl-Shift-A / Command-Shift-P
 
 ## find file names
 Ctrl-Shift-N / Command-Shift-N
 
-## Global search 
+## global search 
 Ctrl-Shift-F / Command-Shift-F
 we can also select find in path 
 
-## Find and Replace 
+## find and replace
 Ctrl-R
 
-## Insert Template
+## insert template
 Command-D
  
 

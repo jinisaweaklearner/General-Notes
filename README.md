@@ -3,7 +3,7 @@
 ### Software
 - [Pycharm](Notes/Pycharm.md) 
 - [Anaconda](PublicCheatSheet/conda-cheatsheet.pdf) 
-- [Datagrip](Notes/datagrip.md)
+- [Datagrip](Notes/Datagrip.md)
 
 ### System
 - [Git](Notes/GitCheatSheet.md) 

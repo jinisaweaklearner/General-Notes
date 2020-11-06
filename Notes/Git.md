@@ -1,33 +1,38 @@
----
-title: Git Cheat Sheet
-created: '2020-04-10T05:59:27.884Z'
-modified: '2020-04-10T08:28:29.717Z'
----
-
 # Git Cheat Sheet
 
 ## Setup user name and email
 global setup
-- git config --global user.<span></span>name "Emma Paris"
-- git config --global user.<span></span>email "eparis<span></span>@atlassian.com"
-
+```
+git config --global user.<span></span>name "Emma Paris"
+git config --global user.<span></span>email "eparis<span></span>@atlassian.com"
+```
 local setup
-- git config user.<span></span>name
+```
+git config user.<span></span>name
+```
 
 check git config
-- git config --list
+```
+git config --list
+```
 
 setup shortcut
-- git config --global alias.<span></span>alias-name git-command
+```
+git config --global alias.<span></span>alias-name git-command
+```
 
-## Git Basic
+## git basic
+```
 - git commit -m "message"
 - git fetch
 - git pull
 - git push
+```
 
-overwrite the last commit 
+overwrite the last commit
+```
 git commit --amend
+```
 
 ## Git Add
 stages new files and modifications, without `deletions` in the current directory
@@ -70,6 +75,7 @@ Stash the changes in a dirty working directory away
 - git stash
 
 ## Useful Alias
+```
 git s
 - alias.s=status
 
@@ -93,15 +99,13 @@ git d
 
 git lg 
 - alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-
+```
 ## Change Branch Name
-
+```
 git branch -m new-name
-
 git push origin :old-name new-name
-
 git push origin -u new-name
-
+```
 
 ## Unuseful Alias 
 git l
@@ -124,13 +128,14 @@ https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 ## Git Step by Step
 - All steps
 https://stackoverflow.com/questions/46877667/how-to-push-a-new-initial-project-to-github-using-vs-code
-
+```
 - git init
 - git add README.md
 - git commit -m "first commit"
 - git remote add origin https://github.com/jinisaweaklearner/betfair_nba_datathon_2020.git
 - git push -u origin master
-How to update a private repo (SSH problem)
+```
+
 
 # Git Rebase
 - https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward
@@ -138,23 +143,31 @@ How to update a private repo (SSH problem)
 
 
 ## Git Stash
+```
 - git stash
 - git stash list --all
 - git stash clear
+```
 
 ## There is no tracking information for the current branch
-- git pull origin master
+```
+git pull origin master
+```
 
 ## Clone Repo
+```
 - sudo apt-get install git
 - sudo git init
 - sudo git remote add origin https://USER@bitbucket.org/powerwrapltd/pwl-ods.git
 - sudo git pull into ~/ods
+```
 
 ## set up upstream of master 
-- git branch --set-upstream-to=origin/master master
+```
+git branch --set-upstream-to=origin/master master
+```
 
-## Skip CICD
+## skip CICD
 ```
 add [skip ci] in comments
 ```

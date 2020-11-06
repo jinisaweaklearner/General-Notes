@@ -24,8 +24,7 @@ docker ps
 # stop container
 docker stop container_id
 
-
-debugging
+# debugging
 docker log container_id
 docker exec -it container_id /bin/bash
 docker exec -it name /bin/bash

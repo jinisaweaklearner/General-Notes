@@ -1,25 +1,19 @@
----
-title: Pycharm
-created: '2020-04-10T05:49:55.404Z'
-modified: '2020-04-10T06:02:30.756Z'
----
+# Pycharm shortcut
 
-# Pycharm
+## find aciont
+Ctrl-Shift-A / Command-Shift-P
 
-### Find Actions
-Ctrl-Shift-A / Command-Shift-A 
-
-### Find Code 
+## find file names
 Ctrl-Shift-N / Command-Shift-N
 
-### Global search 
+## Global search 
 Ctrl-Shift-F / Command-Shift-F
 we can also select find in path 
 
-### Find and Replace 
+## Find and Replace 
 Ctrl-R
 
-### Insert Template
+## Insert Template
 Command-D
  
 

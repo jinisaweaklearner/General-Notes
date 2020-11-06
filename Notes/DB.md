@@ -1,4 +1,4 @@
- ## WHY driver
+ ## why driver
  a DBMS (database management system) needs a database driver that enables a database connection in other systems.
 
  ## what is ODBC
@@ -7,7 +7,7 @@
  ## what is DDL
  https://en.wikipedia.org/wiki/Data_definition_language
 
- ## SQL QUERY
+ ## select top limited values in Microsoft SQL server
  ```
  select top 50 *
  from table_name

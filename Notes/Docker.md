@@ -28,5 +28,11 @@ docker stop container_id
 docker log container_id
 docker exec -it container_id /bin/bash
 docker exec -it name /bin/bash
+
+# remove any resources (images, containers, volumes, and networks)
+docker system prune
+
+# To additionally remove any stopped containers and all unused images (not just dangling images)
+docker system prune -a
 ```
 

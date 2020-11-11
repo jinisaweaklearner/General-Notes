@@ -1,6 +1,6 @@
 # Docker
 
-- Docker image vs container
+- docker image vs container
 https://stackify.com/docker-image-vs-container-everything-you-need-to-know/
 
 - docker-airflow github

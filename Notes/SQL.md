@@ -121,3 +121,10 @@ BEGIN CATCH
 END CATCH  
 [ ; ]  
 ```
+
+
+## COALESCE
+```
+The COALESCE() function returns the first non-null value in a list.
+COALESCE(a.Product,c.Product)
+```

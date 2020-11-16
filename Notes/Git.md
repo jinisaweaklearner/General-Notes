@@ -34,6 +34,11 @@ overwrite the last commit
 git commit --amend
 ```
 
+be sensitive about the file name
+```
+git config core.ignorecase false
+```
+
 ## Git Add
 stages new files and modifications, without `deletions` in the current directory
 - git add .

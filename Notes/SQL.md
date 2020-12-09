@@ -1,19 +1,19 @@
-## Null
+### Null
 when use `like`, we won't get the record of Null values.
 
-## Like | case insensitive
+### Like | case insensitive
 ```
 select *
 from client.service
 where upper(service_name) like '%TEST%';
 ```
 
-## create table if not exsits
+### create table if not exsits
 ```
 create table if not exists table_name (...)
 ```
 
-## Grant access
+### Grant access
 ```
 alter table xx.xxxx owner to your_user_name;
 grant select on xx.xxxx to prod_ro;
@@ -62,7 +62,7 @@ output:
 september
 ```
 
-## IF ELSE
+### IF ELSE
 ```
 IF EXISTS ( select * from praemium.fum_stats_summary where as_at_date = '{date_this_week}')
 BEGIN
@@ -105,12 +105,12 @@ AND s.index_id IN (0,1)
 order by row_count desc
 ```
 
-## delete data but not table
+### delete data but not table
 ```
 TRUNCATE TABLE table_name;
 ```
 
-## catch
+### catch
 A TRY...CATCH construct catches all execution errors that have a severity higher than 10 that do not close the database connection.
 ```
 BEGIN TRY  
@@ -123,7 +123,7 @@ END CATCH
 ```
 
 
-## COALESCE
+### COALESCE
 ```
 The COALESCE() function returns the first non-null value in a list.
 COALESCE(a.Product,c.Product)

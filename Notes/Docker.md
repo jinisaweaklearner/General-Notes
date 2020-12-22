@@ -29,7 +29,7 @@ docker pull redis
 # run images and create container
 docker run redis
 
-# run images and create container in detached model
+# run images and create container in background
 docker run -d redis
 
 # check running containers
@@ -41,10 +41,16 @@ docker container stop container_id
 docker stop container_id
 
 # remove container
-docker container remove container_id
+docker container rm container_id
+
+# force to remove running containers
+docker container rm -f container_id
 
 # process list in one container 
 docker container top
+
+# get inside docker
+ docker container run -it --name ubuntu ubuntu
 
 # debugging
 docker log container_id

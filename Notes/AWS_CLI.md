@@ -8,9 +8,10 @@ aws sts get-caller-identity
 ```
 aws s3 ls s3://ods
 ```
-## copying a local file to S3
+## copying local files to S3
 ```
 aws s3 cp test.txt s3://mybucket/test2.txt
+aws s3 cp . s3://packages-lambda-jin/ --recursive  --exclude "*" --include "*.zip"
 ```
 ## copying a file from S3 to S3
 ```

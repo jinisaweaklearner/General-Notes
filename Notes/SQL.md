@@ -1,3 +1,7 @@
+### ODBC vs JDBCC
+ - JDBC is known as Java Database Community is the application programming interface for java
+ - ODBC is known as Open Database Connectivity is the industry-standard application programming interface for various programming languages and applications for database connectivity and retrieval
+
 ### Null
 when use `like`, we won't get the record of Null values.
 

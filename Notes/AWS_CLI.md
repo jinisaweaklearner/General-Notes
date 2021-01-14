@@ -12,6 +12,7 @@ aws s3 ls s3://ods
 ```
 aws s3 cp test.txt s3://mybucket/test2.txt
 aws s3 cp . s3://packages-lambda-jin/ --recursive  --exclude "*" --include "*.zip"
+https://docs.aws.amazon.com/cli/latest/reference/s3/
 ```
 ## copying a file from S3 to S3
 ```

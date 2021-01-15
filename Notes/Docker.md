@@ -104,3 +104,8 @@ Volumes: Volumes are the preferred way to store persistent data Docker container
 ### resources
 - docker-airflow github
 https://github.com/puckel/docker-airflow
+
+
+### tips
+- get the path of volume from docker docker hub
+- need to specify the password of db when run the db images

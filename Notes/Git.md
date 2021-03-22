@@ -176,3 +176,10 @@ git branch --set-upstream-to=origin/master master
 ```
 add [skip ci] in comments
 ```
+
+## useful command
+```
+git log --online
+git commit --amend
+git rebase -i HEAD~4
+```

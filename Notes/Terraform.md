@@ -16,8 +16,8 @@ terraform fmt -recursive
 ```
 
 ### Backends
-store configuration locally and remotely https://www.terraform.io/docs/language/settings/backends/s3.html
-
+- store configuration locally and remotely https://www.terraform.io/docs/language/settings/backends/s3.html
+- use data from remote state
 
 
 

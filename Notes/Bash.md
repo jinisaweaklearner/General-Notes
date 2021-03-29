@@ -31,3 +31,7 @@ tutorial https://servian.udemy.com/course/bash-scripting/learn/lecture/15541904#
 - $? = exit status of a command
 - 0 = success
 - 1-255 = error
+
+### Others
+- $@ =  in list contexts expands to all the positional parameters as separate arguments
+- exec "$@"

@@ -3,8 +3,8 @@
 ## Setup user name and email
 global setup
 ```
-git config --global user.<span></span>name "Emma Paris"
-git config --global user.<span></span>email "eparis<span></span>@atlassian.com"
+git config --global user.name "Emma Paris"
+git config --global user.email "eparis@atlassian.com"
 ```
 local setup
 ```

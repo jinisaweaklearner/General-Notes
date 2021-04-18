@@ -6,7 +6,7 @@
 - [Datagrip](Notes/Datagrip.md)
 
 ### System
-- [Git](Notes/GitCheatSheet.md) 
+- [Git](Notes/Git.md) 
 - [CLI](Notes/cli.md)
 
 ### Coding and Tools

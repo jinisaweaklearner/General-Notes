@@ -17,4 +17,5 @@ https://stackoverflow.com/questions/57581398/aws-glue-cannot-create-database-fro
 - can't define output names when you use glue package to store parquet files
 - can use normal python script
 
-- use 3rd party python packages
+- use 3rd party python packages: https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python-libraries.html
+- local debugging?

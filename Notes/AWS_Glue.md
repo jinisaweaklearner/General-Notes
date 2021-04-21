@@ -16,7 +16,6 @@ https://stackoverflow.com/questions/57581398/aws-glue-cannot-create-database-fro
 
 - can't define output names when you use glue package to store parquet files
 - can use normal python script
-- can't use pendulum directly
-- can import para from outsite
-- use 3rd party python packages: https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python-libraries.html
+- can import parameteres from outsite
+- use 3rd party python packages: https://docs.aws.amazon.com/glue/latest/dg/reduced-start-times-spark-etl-jobs.html
 - local debugging?

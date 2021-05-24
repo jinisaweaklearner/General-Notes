@@ -183,3 +183,11 @@ git log --online
 git commit --amend
 git rebase -i HEAD~4
 ```
+
+## combine commits after push
+```
+git checkout my_branch
+git reset --soft HEAD~4
+git commit
+git push --force origin my_branch
+```

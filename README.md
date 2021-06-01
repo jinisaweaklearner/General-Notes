@@ -14,6 +14,7 @@
 - [SQL script](Notes/SQL.md)
 - [Database](Notes/DB.md)
 - [Docker](Notes/Docker.md)
+- [Terraform](Notes/Terraform.md)
 
 ### Cloud
 - [AWS CLI](Notes/AWS_CLI.md)

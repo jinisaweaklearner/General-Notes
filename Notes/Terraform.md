@@ -29,6 +29,9 @@ terraform apply tfplan --auto-approve
 terraform fmt -recursive
 ```
 
+### variables, locals and outputs
+https://www.terraform.io/docs/language/values/index.html
+
 ### Backends
 - store configuration locally and remotely https://www.terraform.io/docs/language/settings/backends/s3.html
 - use data from remote state

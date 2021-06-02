@@ -26,11 +26,9 @@ terraform apply tfplan --auto-approve
 
 ### reformat the code
 ```
+# formatting all the files
 terraform fmt -recursive
 ```
-
-### variables, locals and outputs
-https://www.terraform.io/docs/language/values/index.html
 
 
 ### How we use resources across multiple repo?
@@ -66,6 +64,8 @@ role = data.terraform_remote_state.foundation.outputs.role_data_engineer_arn
 
 ```
 
+variables, locals and outputs https://www.terraform.io/docs/language/values/index.html
+
 ### s3 Backend
 - store configuration locally and remotely https://www.terraform.io/docs/language/settings/backends/s3.html
 - use data from remote state
@@ -79,5 +79,10 @@ terraform {
 }
 ```
 
-
-
+### Common errors
+- have the duplicated resource names
+- the gap between AWS API and Terraform
+    - aws_dms_replication_task replication_task_settings always reports as needing modification https://github.com/hashicorp/terraform-provider-aws/issues/1513
+    - extra connection attributes in DMS s3 endpoints need to be in order, otherwise it will report as needing modification
+- can't modify it when it's running
+- dependencies bewtween multiple resources

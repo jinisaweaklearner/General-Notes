@@ -50,7 +50,7 @@ output = "role_data_engineer_arn" {
 
 - In target repo, we call it by using "data" via .tfstate 
 ```
-# import xxx 
+# import remote state 
 data "terraform_remote_state" "foundation" {
   backend = "s3"
   

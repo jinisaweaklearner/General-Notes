@@ -32,6 +32,40 @@ terraform fmt -recursive
 ### variables, locals and outputs
 https://www.terraform.io/docs/language/values/index.html
 
+
+### How we use resources across multiple repo?
+- we use outputs from source repo as following
+```
+# global level
+output = "role_data_engineer_arn" {
+  value = module.iam.role_data_engineer_arn
+}
+
+# local level
+output = "role_data_engineer_arn" {
+  value = aws_iam_role.data_engineer.arn
+}
+
+```
+
+- In target repo, we call it by using "data" via .tfstate 
+```
+# import xxx 
+data "terraform_remote_state" "foundation" {
+  backend = "s3"
+  
+  config = {
+    bucket         = "terraform-state"
+    key            = "filename.tfstate"
+    region         = "ap-southeast-2"
+  }
+}
+
+# use it when creating other resources
+role = data.terraform_remote_state.foundation.outputs.role_data_engineer_arn
+
+```
+
 ### s3 Backend
 - store configuration locally and remotely https://www.terraform.io/docs/language/settings/backends/s3.html
 - use data from remote state

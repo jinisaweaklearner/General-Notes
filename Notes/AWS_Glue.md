@@ -15,7 +15,21 @@ https://stackoverflow.com/questions/57581398/aws-glue-cannot-create-database-fro
 ```
 
 - can't define output names when you use glue package to store parquet files
-- can use normal python script
-- can import parameteres from outsite
-- use 3rd party python packages: https://docs.aws.amazon.com/glue/latest/dg/reduced-start-times-spark-etl-jobs.html
 - local debugging?
+
+
+### import/install 3rd party packages
+```
+key: --additional-python-modules 
+value: pendulum==2.1.2,s3fs==0.5.2
+```
+https://docs.aws.amazon.com/glue/latest/dg/reduced-start-times-spark-etl-jobs.html
+
+### import parameteres
+```
+set up para in glue settings
+key: dev value:123
+
+# import para in python scripts
+args = getResolvedOptions(sys.argv, ['dev'])
+```

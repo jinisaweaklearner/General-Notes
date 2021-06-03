@@ -14,11 +14,29 @@ git config user.<span></span>name
 check git config
 ```
 git config --list
+git config -l
+```
+
+edit git config directly
+```
+git config --edit --global
+git config --edit
+
+```
+remove elements in config
+```
+git config --system --unset credential.helper
 ```
 
 setup shortcut
 ```
 git config --global alias.<span></span>alias-name git-command
+```
+
+aviod enter credential each time
+```
+git config credential.helper store
+https://stackoverflow.com/questions/11403407/git-asks-for-username-every-time-i-push
 ```
 
 ## git basic

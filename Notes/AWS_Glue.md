@@ -33,3 +33,7 @@ key: dev value:123
 # import para in python scripts
 args = getResolvedOptions(sys.argv, ['dev'])
 ```
+
+### Glue Dev endpoints and notebook
+- official tutorial https://docs.aws.amazon.com/glue/latest/dg/dev-endpoint-tutorial-sage.html
+- hands on video https://www.youtube.com/watch?v=zdaVBXfmSs0

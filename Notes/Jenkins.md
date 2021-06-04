@@ -1,15 +1,19 @@
 # Jenkins
+Mainly, we use Jenkins for the reasons below:
+- deploy infra via Terraform
+- upload Airflow dag scripts to s3 bucket
+- upload Glue ETL scripts to s3 bucket
+- deploy docker images to ECS/ECR
 
 - what is /usr/local/bin
 https://stackoverflow.com/questions/43987005/jenkins-does-not-recognize-command-sh
 - SCM = Source Control Management
 
-
 ### Interpolation via Jenkins
-Set values with a .tfvars file https://learn.hashicorp.com/tutorials/terraform/sensitive-variables
-GitHub's recommended .gitignore file for Terraform configuration is configured to ignore files matching the pattern *.tfvars
+In the current project, we use Python scripts read the env.var file as a txt file and get values by "|" via Jenkins.
 
-Another way is to use Python scripts read the env.var file as a txt file and get values by "|" via Jenkins.
+Another way is to set values with a .tfvars file https://learn.hashicorp.com/tutorials/terraform/sensitive-variables
+GitHub's recommended .gitignore file for Terraform configuration is configured to ignore files matching the pattern *.tfvars
 
 
 ### Agent

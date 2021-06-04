@@ -55,3 +55,11 @@ withCredentials([usernamePassword(credentialsId: 'amazon', usernameVariable: 'US
 ```
 ### Cleanup
 https://plugins.jenkins.io/ws-cleanup/
+
+
+### How to create a new Jenkins pipeline
+- visit CDIP DEV in Jenkins
+- click "new item"
+- you can simply copy the settings from the existing and change the url of .git
+- Or, you can create "pipeline" or "multibranch pipeline" by yourselves
+

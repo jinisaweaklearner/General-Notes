@@ -63,3 +63,6 @@ https://plugins.jenkins.io/ws-cleanup/
 - you can simply copy the settings from the existing and change the url of .git
 - Or, you can create "pipeline" or "multibranch pipeline" by yourselves
 
+![Screen Shot 2021-06-04 at 15 55 13](https://user-images.githubusercontent.com/61960385/120753373-6fdff000-c54e-11eb-96ca-d81f6a8a0713.png)
+![Screen Shot 2021-06-04 at 15 54 42](https://user-images.githubusercontent.com/61960385/120753394-78382b00-c54e-11eb-909d-89a774382c49.png)
+![Screen Shot 2021-06-04 at 15 55 07](https://user-images.githubusercontent.com/61960385/120753437-7ff7cf80-c54e-11eb-81fd-0c7e06957b99.png)

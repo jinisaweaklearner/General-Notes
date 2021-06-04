@@ -5,6 +5,7 @@ Mainly, we use Jenkins for the reasons below:
 - upload Glue ETL scripts to s3 bucket
 - deploy docker images to ECS/ECR
 
+### Concepts
 - what is /usr/local/bin
 https://stackoverflow.com/questions/43987005/jenkins-does-not-recognize-command-sh
 - SCM = Source Control Management

@@ -109,3 +109,7 @@ https://github.com/puckel/docker-airflow
 ### tips
 - get the path of volume from docker docker hub
 - need to specify the password of db when run the db images
+
+### entrypoint vs run vs cmd
+- https://www.bmc.com/blogs/docker-cmd-vs-entrypoint/
+- https://stackoverflow.com/questions/21553353/what-is-the-difference-between-cmd-and-entrypoint-in-a-dockerfile

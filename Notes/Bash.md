@@ -24,6 +24,7 @@ replace the 2nd one
 sed `s\search_partern\replace_value\2`
 
 tutorial https://servian.udemy.com/course/bash-scripting/learn/lecture/15541904#overview
+https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/
 ```
 
 

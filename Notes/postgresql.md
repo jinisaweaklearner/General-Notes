@@ -1,6 +1,12 @@
 ### resources
 - https://www.postgresqltutorial.com/postgresql-show-databases/
 
+``` bat
+brew install postgresql
+brew services start postgresql
+psql postgres
+```
+
 
 ``` sql
 # list databases

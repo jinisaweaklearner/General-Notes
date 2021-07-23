@@ -8,3 +8,10 @@ Characteristics of Star Schema:
 - The dimension table is joined to the fact table using a foreign key
 - The dimension table are not joined to each other
 - Fact table would contain key and measure
+
+# Snowflake schema
+Characteristics of Snowflake Schema:
+- The main benefit of the snowflake schema it uses smaller disk space.
+- Easier to implement a dimension is added to the Schema
+- Due to multiple tables query performance is reduced
+- The primary challenge that you will face while using the snowflake Schema is that you need to perform more maintenance efforts because of the more lookup tables.

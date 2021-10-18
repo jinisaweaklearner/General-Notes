@@ -6,3 +6,26 @@ source ./bin/activate
 
 ## decatevate env
 deactivate
+
+## import from other folder
+```
+# - folder_a
+#    - common.py
+#   - folder_b
+#     - file.py
+from .common import execute_query
+```
+
+## add arguments
+```
+import argparse
+
+parser = argparse.ArgumentParser(description='A test program.')
+
+parser.add_argument("--print_string", help="Prints the supplied argument.", default=”A random string.”)
+
+args = parser.parse_args()
+
+print(args.print_string)
+```
+

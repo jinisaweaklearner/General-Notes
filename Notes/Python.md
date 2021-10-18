@@ -14,6 +14,9 @@ deactivate
 #   - folder_b
 #     - file.py
 from .common import execute_query
+
+# use __init__.py
+https://stackoverflow.com/questions/448271/what-is-init-py-for
 ```
 
 ## add arguments

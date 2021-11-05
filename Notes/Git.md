@@ -57,6 +57,11 @@ be sensitive about the file name
 git config core.ignorecase false
 ```
 
+undo the changes after git add
+```
+git reset .
+```
+
 ## Git Add
 stages new files and modifications, without `deletions` in the current directory
 - git add .

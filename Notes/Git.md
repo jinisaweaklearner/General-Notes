@@ -78,6 +78,11 @@ add specific drectory or files
 good explanation
 https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
 
+## Git rm
+```
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+```
 
 ## Git Check
 check which files are staged, unstaged, and untracked.

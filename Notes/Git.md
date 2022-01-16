@@ -107,6 +107,12 @@ check remote fetch and push
 Stash the changes in a dirty working directory away
 - git stash
 
+## Setup Alias
+```
+git config --global alias.cm "commit -m"
+git config --global alias.s "status"
+```
+
 ## Useful Alias
 ```
 git s

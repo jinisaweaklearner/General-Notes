@@ -2,6 +2,13 @@
 ```
 history | grep 'xxx'
 ```
+
+## generate SSH-key
+```
+ssh-keygen -t rsa
+# then copy paste it to github
+```
+
 ## wildcard
 ```
 \* : one or more  characters

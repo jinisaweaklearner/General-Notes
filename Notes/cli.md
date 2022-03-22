@@ -5,8 +5,11 @@ history | grep 'xxx'
 
 ## generate SSH-key
 ```
+# generate the ssh key
 ssh-keygen -t rsa
-# then copy paste it to github
+
+# copy paste it to github in the clipboard
+pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 ## wildcard

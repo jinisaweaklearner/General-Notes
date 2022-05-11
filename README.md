@@ -4,6 +4,7 @@
 - [Pycharm](Notes/Pycharm.md) 
 - [Anaconda](PublicCheatSheet/conda-cheatsheet.pdf) 
 - [Datagrip](Notes/Datagrip.md)
+- [VS Code](Notes/vscode.md)
 
 ### System
 - [Git](Notes/Git.md) 

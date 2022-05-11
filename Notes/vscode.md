@@ -16,6 +16,8 @@ open a new terminal
 hide or show terminal
 ``ctrol + ` ``
 
+split window
+`command + \`
 
 #### Windows
 file search

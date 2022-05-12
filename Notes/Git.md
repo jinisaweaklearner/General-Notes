@@ -177,9 +177,11 @@ https://stackoverflow.com/questions/46877667/how-to-push-a-new-initial-project-t
 
 
 # Git Rebase
-- https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward
-- git pull --rebase
-
+```
+https://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward
+git pull --rebase
+git pull origin master --rebase # sync the changes from master
+```
 
 ## Git Stash
 ```

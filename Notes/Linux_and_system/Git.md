@@ -78,6 +78,11 @@ add specific drectory or files
 good explanation
 https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
 
+## Git delete files
+```
+git rm file1
+```
+
 ## Git rm
 ```
 git rm --cached file1.txt

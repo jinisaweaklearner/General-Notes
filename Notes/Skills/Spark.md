@@ -1,3 +1,5 @@
+## How to install Pyspark
+
 ```
 # use brew to install spark
 brew install apache-spark

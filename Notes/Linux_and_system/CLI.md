@@ -45,3 +45,9 @@ env
 ## add path
 The PATH is an important concept when working on the command line. It's a list of directories that tell your operating system where to look for programs, so that you can just write script instead of /home/me/bin/script or C:\Users\Me\bin\script.
 https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7
+
+## create password
+```
+sudo puttygen file.ppk -O private-openssh -o file.pem
+openssl rsa -in file_encroption.pem -out file_decryption.pem
+```

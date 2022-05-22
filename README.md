@@ -6,12 +6,12 @@
 - [Airflow](Notes/Skills/Airflow.md)
 - [DBT](Notes/Skills/DBT.md)
 - [Spark](Notes/Skills/Spark.md)
-- [Bash](Notes/Linux_and_system/Bash.md) 
+- [Bash](Notes/Skills/Bash.md) 
 - [Jenkins](Notes/Skills/Jenkins.md)
 - [Terraform](Notes/Skills/Terraform.md)
 
 ### Linux and System
-- [Git](Notes/Git.md) 
+- [Git](Notes/Linux_and_system/Git.md) 
 - [CLI](Notes/Linux_and_system/CLI.md)
 
 ### Tools

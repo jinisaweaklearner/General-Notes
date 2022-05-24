@@ -110,7 +110,10 @@ check remote fetch and push
 
 ## Stash
 Stash the changes in a dirty working directory away
-- git stash
+```
+git stash
+git stash -- folder_name/file_name.txt
+```
 
 ## Setup Alias
 ```

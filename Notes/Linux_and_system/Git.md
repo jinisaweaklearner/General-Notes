@@ -231,8 +231,9 @@ git rebase -i HEAD~4
 ## combine commits after push
 ```
 git checkout my_branch
-git reset --soft HEAD~4
-git commit
+git reset --soft HEAD~4 (4 is the number of commits you want to merge together, include the last commit)
+git commit (add aggreated commit message)
+git log (check output)
 git push --force origin my_branch
 ```
 

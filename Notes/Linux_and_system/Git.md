@@ -115,6 +115,12 @@ git stash
 git stash -- folder_name/file_name.txt
 ```
 
+## Clean
+undo all uncommitted or unsaved changes
+```
+git clean -fdx
+```
+
 ## Setup Alias
 ```
 git config --global alias.cm "commit -m"

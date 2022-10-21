@@ -51,3 +51,8 @@ https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7
 sudo puttygen file.ppk -O private-openssh -o file.pem
 openssl rsa -in file_encroption.pem -out file_decryption.pem
 ```
+
+## get all variables
+```bash
+printenv
+```

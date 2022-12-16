@@ -243,7 +243,15 @@ git log (check output)
 git push --force origin my_branch
 ```
 
+## pull changes from main to feature branch
+```
+git checkout feature_branch
+git merge origin/main
+```
+
+
 ## Reference
+- [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 - [Generating a new SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Adding a new SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 - [rename branch](https://www.w3docs.com/snippets/git/how-to-rename-git-local-and-remote-branches.html)

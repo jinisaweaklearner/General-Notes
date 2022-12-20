@@ -59,3 +59,6 @@ printenv
 
 ## add enviromental variables
 - https://apple.stackexchange.com/questions/106778/how-do-i-set-environment-variables-on-os-x
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="/home/jupyter/.config/gcloud/legacy_credentials/xxxx/adc.json"
+```

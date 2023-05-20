@@ -1,5 +1,14 @@
 # Bash
 
+### shortcut in mac
+```
+Ctrl + A: Go to the beginning of the line you're currently typing on
+Ctrl + E: Go to the end of the line you're currently typing on
+Option + →: Move cursor one word forward
+Option + ←: Move cursor one word backward
+https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/
+```
+
 ### debugging
 ```
 # print the result of commands

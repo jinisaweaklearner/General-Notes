@@ -13,11 +13,11 @@ https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/
 ### shortcut in linux
 ```
 Moving the cursor:
-  Ctrl + a   Go to the beginning of the line (Home)
-  Ctrl + e   Go to the End of the line (End)
+Ctrl + a   Go to the beginning of the line (Home)
+Ctrl + e   Go to the End of the line (End)
   
-   Alt + b   Back (left) one word
-   Alt + f   Forward (right) one word
+Alt + b   Back (left) one word
+Alt + f   Forward (right) one word
 ```
 
 ### debugging

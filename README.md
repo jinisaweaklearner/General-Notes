@@ -33,6 +33,10 @@
 - [AWS S3](Notes/AWS/AWS_S3.md)
 - [GCP overview](Notes/GCP/GCP_overview.md)
 
+### Data Lake & Data Warehouse
+- [Databricks Overview](Notes/Databricks/databricks.md)
+- [Databricks Catalog](Notes/Databricks/unity_catalog.md)
+
 ### Other
 - [Colab](Notes/Colab.md)
 - [Feature store](Notes/Feature_store.md)
